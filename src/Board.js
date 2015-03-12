@@ -76,7 +76,7 @@
 
     // ROWS - run from left to right
     // --------------------------------------------------------------
-    //
+    
     // test if a specific row on this board contains a conflict
     hasRowConflictAt: function(rowIndex) {
       var theRow = this.get(rowIndex);
@@ -137,7 +137,6 @@
 
     // Major Diagonals - go from top-left to bottom-right
     // --------------------------------------------------------------
-    //
     // test if a specific major diagonal on this board contains a conflict
     hasMajorDiagonalConflictAt: function(startingCol) {
       var startRow = this.get(0)
@@ -156,8 +155,6 @@
     hasAnyMajorDiagonalConflicts: function() {
    
      var theBoard = this.rows();
-     // var toprow = this.get();
-
 
     for(var i = 0; i < theBoard.length; i++){
       if(i === 0){
