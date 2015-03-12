@@ -17,10 +17,8 @@
 window.findNRooksSolution = function(n) {
   var solution = [[]];
   //generate a blank board;
-  debugger;
-  
   var board = new Board({n: n});
-  console.log(board);
+  
   // console.log('Single solution for ' + n + ' rooks:', JSON.stringify(solution));
   return solution;
 };
